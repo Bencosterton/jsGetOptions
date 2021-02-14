@@ -14,3 +14,5 @@ javascript:(function(){function I(u){var t=u.split('.'),e=t[t.length-1].toLowerC
 
 javascript:var sHTML="<html><head><title>gallery</title><body><center><table border=0>";var y=0;for(x=0;x<document.links.length;x++){a=document.links[x].href; if (a.match(/jpe|jpeg|jpg|bmp|tiff|tif|bmp|gif|png/i)){sHTML+='<td style="border-style:solid;border-width:1px"><a target="_new" href="'+a+'"><img border="0" width="100" src="'+a+'"></a></td>'; if (!((x+1)%5)) sHTML+="</tr><tr>"}};this.innerHTML=sHTML+"</table></center></body></html>";
 
+
+// Open the bookmark inside the directory to perform the action //
